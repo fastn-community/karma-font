@@ -1,7 +1,7 @@
 # Karma: FPM Font Package
 
 This repository contains a [fpm font package](https://fpm.dev/featured/fonts/) containing [Google Font: 
-Arya](https://fonts.google.com/specimen/Karma/about).
+Karma](https://fonts.google.com/specimen/Karma/about).
 
 Karma is an Open Source multi-script typeface supporting both the Devanagari and the Latin script. The family was developed for use in body text on screen, and five fonts are available. The characters for both scripts feature a construction style that tends toward the monolinear. The Latin script component has serif letters. Both these, and the stroke terminals in the Devanagari letterforms are generally rounded in Karma’s design.
 
