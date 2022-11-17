@@ -21,21 +21,21 @@ TLRD:
 Include fifthtry.github.io/karma-font package into `FPM.ftd` file:
 
 ```ftd
--- fpm.dependency: fifthtry.github.io/karma-font
+;-- fpm.dependency: fifthtry.github.io/karma-font
 ```
 
 Inside your `FPM/config.ftd` use the font:
 
 ```ftd
--- import: fifthtry.github.io/karma-font as karma
+;-- import: fifthtry.github.io/karma-font/assets as karma
 
--- fpm.type.headline-small.font: $karma.fonts.Karma
+;-- fpm.type.headline-small.font: $karma.fonts.Karma
 ```
 
 Now if in any file you do:
 
 ```ftd
--- ftd.text:
+;-- ftd.text:
 role: $fpm.type.headline-small
 ```
 
@@ -48,7 +48,7 @@ server](https://discord.gg/bucrdvptYd).
 
 ## License
 
-Since Karma Font is under [Open Font Licence](https://fonts.google.com/specimen/Arya/about), this FPM wrapper is also
+Since Karma Font is under [Open Font Licence](https://fonts.google.com/specimen/Karma/about), this FPM wrapper is also
 under [Open Font License](LICENSE).
 
 
