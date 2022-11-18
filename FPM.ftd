@@ -3,6 +3,8 @@
 -- fpm.package: fifthtry.github.io/karma-font
 download-base-url: https://raw.githubusercontent.com/fifthtry/karma-font/main
 
+-- fpm.dependency: fifthtry.github.io/package-doc
+
 -- fpm.font: Karma
 style: normal
 weight: 300
