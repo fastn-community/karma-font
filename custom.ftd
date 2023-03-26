@@ -1,0 +1,279 @@
+-- import: fastn-community.github.io/karma-font/assets as karma-assets
+-- import: fifthtry.github.io/package-doc/doc as pd
+-- import: fifthtry.github.io/package-doc/forest-theme as ds
+-- import: fifthtry.github.io/package-doc/footer
+
+
+
+
+
+-- ds.page: 
+show-footer: true
+site-name: `karma`
+
+-- ds.page.footer:
+
+-- footer.fastn-footer:
+
+-- end: ds.page.footer
+
+-- pd.package: FTD karma package
+name: fastn-community.github.io/karma
+
+This FTD font `karma` package is for your ftd web projects. To Use this
+karma inside `FTD` project follow below instructions.
+
+-- ds.h3: How to use karma?
+
+-- ds.code: Add this to your FASTN.ftd
+lang: ftd
+
+\-- fastn.dependency: fastn-community.github.io/karma
+
+-- ds.markdown: 
+
+After adding karma dependency inside your `FASTN.ftd` file, You need to
+add karma assets and import it inside your `.ftd` files where you are
+using this font for your custom font types. 
+
+To include karma into your `ftd` file follow below instructions.
+
+-- ds.code:
+lang: ftd
+
+\-- import: fastn-community.github.io/karma/assets as karma-assets
+
+
+-- ds.h3: How to create a custom karma type? 
+
+-- ds.markdown: 
+
+We don't recommend creating custom types. We recommend to use 
+our [karma-typography](https://fastn-community.github.io/karma-typography)
+
+If you're using [karma-typography](https://fastn-community.github.io/karma-typography) 
+and still your designer has introduced new font size which are not included or 
+part of our [karma-typography](https://fastn-community.github.io/karma-typography) 
+then only define custom types. 
+
+We hope you shouldn't need to define a custom type.
+
+Below is an example of creating a custom `ftd.type` using karma.
+
+-- ds.rendered:
+
+-- ds.rendered.input:
+
+\-- ftd.type karma-size-12-desktop:
+size.px: 12
+weight: 400
+font-family: $karma-assets.fonts.Karma
+
+
+\-- ftd.type karma-size-12-mobile:
+size.px: 12
+weight: 400
+font-family: $karma-assets.fonts.Karma
+
+\-- ftd.responsive-type karma-size-12-400:
+desktop: $karma-size-12-desktop
+mobile: $karma-size-12-mobile
+
+\-- ftd.text: 
+role: $karma-size-12-400
+color: $inherited.colors.text-strong
+
+`font-size: 12px, font-weight: 400` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ds.rendered.output:
+
+-- ftd.text: 
+role: $karma-size-12-400
+color: $inherited.colors.text-strong
+
+`font-size: 12px, font-weight: 400` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- end: ds.rendered.output
+
+-- end: ds.rendered
+
+-- end: ds.page
+
+
+
+
+
+
+
+
+
+-- ftd.type karma-size-12-desktop:
+size.px: 12
+weight: 400
+font-family: $karma-assets.fonts.Karma
+
+
+-- ftd.type karma-size-12-mobile:
+size.px: 12
+weight: 400
+font-family: $karma-assets.fonts.Karma
+
+-- ftd.responsive-type karma-size-12-400:
+desktop: $karma-size-12-desktop
+mobile: $karma-size-12-mobile
+
+
+
+
+
+-- ftd.type karma-size-12-500-desktop:
+size.px: 12
+weight: 500
+font-family: $karma-assets.fonts.Karma
+
+
+-- ftd.type karma-size-12-500-mobile:
+size.px: 12
+weight: 500
+font-family: $karma-assets.fonts.Karma
+
+-- ftd.responsive-type karma-size-12-500:
+desktop: $karma-size-12-500-desktop
+mobile: $karma-size-12-500-mobile
+
+
+
+
+
+-- ftd.type karma-size-12-800-desktop:
+size.px: 12
+weight: 800
+font-family: $karma-assets.fonts.Karma
+
+
+-- ftd.type karma-size-12-800-mobile:
+size.px: 12
+weight: 800
+font-family: $karma-assets.fonts.Karma
+
+-- ftd.responsive-type karma-size-12-800:
+desktop: $karma-size-12-800-desktop
+mobile: $karma-size-12-800-mobile
+
+
+
+
+
+-- ftd.type karma-size-18-desktop:
+size.px: 18
+weight: 400
+font-family: $karma-assets.fonts.Karma
+
+
+-- ftd.type karma-size-18-mobile:
+size.px: 18
+weight: 400
+font-family: $karma-assets.fonts.Karma
+
+-- ftd.responsive-type karma-size-18-400:
+desktop: $karma-size-18-desktop
+mobile: $karma-size-18-mobile
+
+
+
+
+
+-- ftd.type karma-size-18-500-desktop:
+size.px: 18
+weight: 500
+font-family: $karma-assets.fonts.Karma
+
+
+-- ftd.type karma-size-18-500-mobile:
+size.px: 18
+weight: 500
+font-family: $karma-assets.fonts.Karma
+
+-- ftd.responsive-type karma-size-18-500:
+desktop: $karma-size-18-500-desktop
+mobile: $karma-size-18-500-mobile
+
+
+
+
+
+-- ftd.type karma-size-18-800-desktop:
+size.px: 18
+weight: 800
+font-family: $karma-assets.fonts.Karma
+
+
+-- ftd.type karma-size-18-800-mobile:
+size.px: 18
+weight: 800
+font-family: $karma-assets.fonts.Karma
+
+-- ftd.responsive-type karma-size-18-800:
+desktop: $karma-size-18-800-desktop
+mobile: $karma-size-18-800-mobile
+
+
+
+
+
+-- ftd.type karma-size-48-desktop:
+size.px: 48
+weight: 400
+font-family: $karma-assets.fonts.Karma
+
+
+-- ftd.type karma-size-48-mobile:
+size.px: 48
+weight: 400
+font-family: $karma-assets.fonts.Karma
+
+-- ftd.responsive-type karma-size-48-400:
+desktop: $karma-size-48-desktop
+mobile: $karma-size-48-mobile
+
+
+
+
+
+-- ftd.type karma-size-48-500-desktop:
+size.px: 48
+weight: 500
+font-family: $karma-assets.fonts.Karma
+
+
+-- ftd.type karma-size-48-500-mobile:
+size.px: 48
+weight: 500
+font-family: $karma-assets.fonts.Karma
+
+-- ftd.responsive-type karma-size-48-500:
+desktop: $karma-size-48-500-desktop
+mobile: $karma-size-48-500-mobile
+
+
+
+
+
+-- ftd.type karma-size-48-800-desktop:
+size.px: 48
+weight: 800
+font-family: $karma-assets.fonts.Karma
+
+
+-- ftd.type karma-size-48-800-mobile:
+size.px: 48
+weight: 800
+font-family: $karma-assets.fonts.Karma
+
+-- ftd.responsive-type karma-size-48-800:
+desktop: $karma-size-48-800-desktop
+mobile: $karma-size-48-800-mobile
