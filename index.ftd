@@ -1,146 +1,111 @@
 -- import: fifthtry.github.io/package-doc/doc as pd
--- import: fifthtry.github.io/package-doc/typography as tf
--- import: fifthtry.github.io/karma-font/assets as karma-assets
--- import: fpm
-
-
--- boolean is-mobile: false
-
--- is-mobile: true
-if: $ftd.device == mobile
+-- import: fifthtry.github.io/package-doc/forest-theme as ds
+-- import: fastn-community.github.io/karma-font/custom
+-- import: fifthtry.github.io/package-doc/footer
 
 
 
--- ftd.font-size karma-demo:
-line-height: 36
-size: 22
-letter-spacing: 0
 
--- ftd.font-size karma-demo-heading:
-line-height: 56
-size: 48
-letter-spacing: 0
+-- ds.page: 
+show-footer: true
+site-name: `karma`
 
--- ftd.type karma-font: $karma-assets.fonts.Karma
-desktop: $karma-demo
-mobile: $karma-demo
-xl: $karma-demo
-weight: 400
+-- ds.page.footer:
 
--- ftd.type karma-font-heading: $karma-assets.fonts.Karma
-desktop: $karma-demo-heading
-mobile: $karma-demo-heading
-xl: $karma-demo-heading
-weight: 400
+-- footer.fastn-footer:
 
--- ftd.column:
-width: fill
-padding-horizontal: 50
-padding-horizontal if $is-mobile: 20
-background-color: $fpm.color.main.background.base
-id: parent
+-- end: ds.page.footer
 
+-- pd.package: karma package
+name: fastn-community.github.io/karma-font
 
--- pd.package: karma - fpm font
-name: fifthtry.github.io/karma-font
+This FTD font `karma` can be used for your ftd web projects. 
 
-This component consist of Google karma font with all it's styles from Thin-100 to Black-900 Italic.
+To Use this karma inside `FTD` project visit [karma-typography](https://fastn-community.github.io/karma-typography).
+
+-- ds.h3: karma various sizes
+
+-- ftd.text: 
+role: $custom.karma-size-12-400
+color: $inherited.colors.text-strong
+
+`font-size: 12px, font-weight: 400` 
+
+👉 The quick brown fox jumps over the lazy dog 
 
 
--- pd.component: karma - fpm font
-name: https://github.com/FifthTry/karma-font
+-- ftd.text: 
+role: $custom.karma-size-12-800
+color: $inherited.colors.text-strong
 
-This component consist of Google karma font with all it's styles from Thin-100 to Black-900 Italic.
+`font-size: 12px, font-weight: 500` 
 
+👉 The quick brown fox jumps over the lazy dog 
 
+-- ftd.text: 
+role: $custom.karma-size-12-800
+color: $inherited.colors.text-strong
 
--- pd.hidden-code: How to use
+`font-size: 12px, font-weight: 800` 
 
-include fifthtry.github.io/karma package into FPM.ftd file
-
-\-- fpm.dependency: fifthtry.github.io/karma-font/assets as karma
-
-\-- fpm.auto-import: karma
-
-Inside your .ftd file to change for any specific token use:
-
-\-- fpm.type.headline-small.font: $karma.fonts.Karma
-
-\-- ftd.text:
-role: $fpm.type.headline-small
-
--- container: parent
+👉 The quick brown fox jumps over the lazy dog 
 
 
--- tf.h2: `karma-font` light 18px:
+-- ftd.text: 
+role: $custom.karma-size-18-400
+color: $inherited.colors.text-strong
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।  
-role: $karma-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: light
+`font-size: 18px, font-weight: 400` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ftd.text: 
+role: $custom.karma-size-18-500
+color: $inherited.colors.text-strong
+
+`font-size: 18px, font-weight: 500` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ftd.text: 
+role: $custom.karma-size-18-800
+color: $inherited.colors.text-strong
+
+`font-size: 18px, font-weight: 800` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ftd.text: 
+role: $custom.karma-size-48-400
+color: $inherited.colors.text-strong
+
+`font-size: 48px, font-weight: 400` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ftd.text: 
+role: $custom.karma-size-48-500
+color: $inherited.colors.text-strong
+
+`font-size: 48px, font-weight: 500` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ftd.text:
+role: $custom.karma-size-48-800
+color: $inherited.colors.text-strong
+
+`font-size: 48px, font-weight: 800` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- end: ds.page
 
 
--- tf.h2: `karma-font` regular 18px:
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।  
-role: $karma-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: regular
 
--- tf.h2: `karma-font` regular strike through 18px:
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $karma-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: regular strike
 
--- tf.h2: `karma-font` regular underline 18px:
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $karma-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: regular underline
 
--- tf.h2: `karma-font` regular italic 18px:
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $karma-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: regular italic
-
--- tf.h2: `karma-font` medium 18px:
-
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $karma-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: medium
-
--- tf.h2: `karma-font` semi-bold 18px:
-
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $karma-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: semi-bold
-
--- tf.h2: `karma-font` bold 18px:
-
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $karma-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: bold
-
--- tf.h2: `karma-font` heading regular 48px:
-
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $karma-font-heading
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-10
-style: regular
