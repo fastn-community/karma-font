@@ -1,0 +1,106 @@
+{
+  "files": {
+    "FASTN.ftd": {
+      "name": "FASTN.ftd",
+      "checksum": "51E1D7BAE24475069BD4F42E2A7E7467D1E9CF59DA89787B3ECCEFA6BB45E9E3",
+      "size": 4314
+    },
+    "LICENSE": {
+      "name": "LICENSE",
+      "checksum": "95A9632336410243B2147554EB1C5CC0FCA6C8DBED399E8F787FC84BD22F7C27",
+      "size": 4011
+    },
+    "README.md": {
+      "name": "README.md",
+      "checksum": "48550A92F8EA15C037853211D784D68C64192BB7D1D5E5179CCF8DC851DD2108",
+      "size": 1977
+    },
+    "custom.ftd": {
+      "name": "custom.ftd",
+      "checksum": "A4765F100622784EA9BB8775B196CA5E9740B46AC1EDA63D1BE0F0D0977627D0",
+      "size": 5294
+    },
+    "index.ftd": {
+      "name": "index.ftd",
+      "checksum": "CF435F700F9982D8AC3361A167663EB46EF5FC88C66BF28BDF71C50CFE1B17F8",
+      "size": 2209
+    },
+    "static/Karma-300-normal-devanagari.woff2": {
+      "name": "static/Karma-300-normal-devanagari.woff2",
+      "checksum": "7D82793131650362124AC9C4F5C1518FBF4333C0AED6593015D930B679BA35ED",
+      "size": 71252
+    },
+    "static/Karma-300-normal-latin-ext.woff2": {
+      "name": "static/Karma-300-normal-latin-ext.woff2",
+      "checksum": "DD3D5F060E870635A6F11C69801CADFB17CA75D0B0745C0CF217EF8938783501",
+      "size": 12468
+    },
+    "static/Karma-300-normal-latin.woff2": {
+      "name": "static/Karma-300-normal-latin.woff2",
+      "checksum": "A72EFB2A87DF49D087E5C625767A526CEF729C12299DB2D8447A77973B670653",
+      "size": 17444
+    },
+    "static/Karma-400-normal-devanagari.woff2": {
+      "name": "static/Karma-400-normal-devanagari.woff2",
+      "checksum": "D3343949089EF43E92812D41DD60E66EE10AF8AFEE7DD86AE0F41AD17C6DFDBF",
+      "size": 84764
+    },
+    "static/Karma-400-normal-latin-ext.woff2": {
+      "name": "static/Karma-400-normal-latin-ext.woff2",
+      "checksum": "4D8EF14C0C9134271F171E967B09B32B84D9217A8449CB83DA657CD30EA18E40",
+      "size": 12564
+    },
+    "static/Karma-400-normal-latin.woff2": {
+      "name": "static/Karma-400-normal-latin.woff2",
+      "checksum": "1EBC1CEB6F0BF976ADAD1196A31C449CBC15A4B4754527FF4C596EF6A8E212E8",
+      "size": 17528
+    },
+    "static/Karma-500-normal-devanagari.woff2": {
+      "name": "static/Karma-500-normal-devanagari.woff2",
+      "checksum": "7EA3F3154511FB9759F00383C1D73470A857179AE13257F674E3A8671C7BBB76",
+      "size": 86624
+    },
+    "static/Karma-500-normal-latin-ext.woff2": {
+      "name": "static/Karma-500-normal-latin-ext.woff2",
+      "checksum": "BB29789E441DCDBCEB2852535BDE8B5D28B819C52A5B5A4A27554FC533405685",
+      "size": 12652
+    },
+    "static/Karma-500-normal-latin.woff2": {
+      "name": "static/Karma-500-normal-latin.woff2",
+      "checksum": "F72C05899BEF88F243774B800861A5D5374374EAC545D09D7E5283D156421C19",
+      "size": 17712
+    },
+    "static/Karma-600-normal-devanagari.woff2": {
+      "name": "static/Karma-600-normal-devanagari.woff2",
+      "checksum": "50C6BCDA9FEE7E9E3EF554663CED69D4433DD025936B23D0DE8ABC5FABECA10B",
+      "size": 86244
+    },
+    "static/Karma-600-normal-latin-ext.woff2": {
+      "name": "static/Karma-600-normal-latin-ext.woff2",
+      "checksum": "6EEBC15C65474A91DE3A37F4C98D2B0E325670F00ECF4009CD81F2B02E78B05D",
+      "size": 12580
+    },
+    "static/Karma-600-normal-latin.woff2": {
+      "name": "static/Karma-600-normal-latin.woff2",
+      "checksum": "46C241E3841F63E359ED4CD2FFF94E2CECFF423E2E37F95719FEC30E0359D8E5",
+      "size": 17940
+    },
+    "static/Karma-700-normal-devanagari.woff2": {
+      "name": "static/Karma-700-normal-devanagari.woff2",
+      "checksum": "4C231B6F85210E2E8EEA42C7B826813A1194BA5FEC59A5CA0640EBBC39E859B1",
+      "size": 80656
+    },
+    "static/Karma-700-normal-latin-ext.woff2": {
+      "name": "static/Karma-700-normal-latin-ext.woff2",
+      "checksum": "3117F526D0EC8FBED61D975B326979D1993D66078A3AEC4CE207EBD78A3FF8BE",
+      "size": 12460
+    },
+    "static/Karma-700-normal-latin.woff2": {
+      "name": "static/Karma-700-normal-latin.woff2",
+      "checksum": "C9BC9E3D9388E82D5E809CB9170575703E2512704F83289947ACA10D62DFFC32",
+      "size": 17260
+    }
+  },
+  "zip_url": "https://codeload.github.com/fastn-community/karma-font/zip/refs/heads/main",
+  "checksum": "6601A79AB5FC5F706D1B9BB500A44A62EBD2EC8E147AD39ECC2AD624BEAF09F9"
+}
